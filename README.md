@@ -14,7 +14,7 @@ Aplikacja realizująca prosty notatnik z możliwością tagowania notatek oraz w
 ## Uruchomienie
 
 1. Zainstaluj zależności:
-   ```bash
+   bash
    npm install
 
 ```
