@@ -14,13 +14,13 @@ Aplikacja realizująca prosty notatnik z możliwością tagowania notatek oraz w
 ## Uruchomienie
 
 1. Zainstaluj zależności:
-   bash
+  
    npm install
 
-```
+
 
 2. Uruchom serwer:
-```bash
+
 node server.js
 
 ```
