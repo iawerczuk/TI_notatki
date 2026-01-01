@@ -1,3 +1,4 @@
+
 # Notes API – notatki, tagi i wyszukiwanie
 
 Aplikacja realizująca prosty notatnik z możliwością tagowania notatek oraz wyszukiwania po tytule i treści (LIKE).
@@ -10,24 +11,23 @@ Aplikacja realizująca prosty notatnik z możliwością tagowania notatek oraz w
 - **Baza danych:** SQLite
 - **Interfejs:** katalog `public/`
 
+---
 
 ## Uruchomienie
 
 1. Zainstaluj zależności:
-  
+   ```bash
    npm install
 
-
+```
 
 2. Uruchom serwer:
-
+```bash
 node server.js
 
 ```
 
-
-3. Adres aplikacji: [http://localhost:5050]
-
+3. Adres aplikacji: [http://localhost:5050](https://www.google.com/search?q=http://localhost:5050)
 
 ## Zakres funkcjonalny
 
@@ -77,3 +77,5 @@ node server.js
 ## Testowanie
 
 Plik `tests.rest` zawiera przygotowane przykłady wywołań wszystkich endpointów API. Testy zostały przeprowadzone przy użyciu rozszerzenia **REST Client** dla Visual Studio Code.
+
+```
