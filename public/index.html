@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Notatki</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header><h1>Notatki</h1></header>
+
+  <main>
+    <input id="q" placeholder="Szukaj…" />
+
+    <div id="notes"></div>
+
+    <h2>Dodaj notatkę</h2>
+    <form id="note-form">
+      <input name="title" placeholder="Tytuł" required>
+      <textarea name="body" placeholder="Treść" required></textarea>
+      <input name="tags" placeholder="Tagi (np. praca,szkoła)">
+      <button type="submit">Dodaj</button>
+    </form>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

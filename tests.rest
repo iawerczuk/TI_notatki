@@ -1,0 +1,32 @@
+@base = http://localhost:5050
+
+### stwórz notatkę
+POST {{base}}/api/notes
+Content-Type: application/json
+
+{
+  "title": "Zakupy",
+  "body": "Kupić kawę i coś do kawy"
+}
+
+### szukaj
+GET {{base}}/api/notes?q=kawa
+
+### dodaj notatkę z tagami
+POST {{base}}/api/notes/1/tags
+Content-Type: application/json
+
+{
+  "title": "Szkoła",
+  "body": "Zadania do oddania",
+  "tags": ["szkola", "wazne"]
+}
+
+### lista notatek
+GET {{base}}/api/tags
+
+ ### filtrowanie po tagu
+GET {{base}}/api/notes?tag=work
+
+### wyszukiwanie + tag
+GET {{base}}/api/notes?q=kawa&tag=work
