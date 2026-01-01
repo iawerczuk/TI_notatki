@@ -1,7 +1,7 @@
 
 # Notes API – notatki, tagi i wyszukiwanie
 
-Aplikacja realizująca prosty notatnik z możliwością tagowania notatek oraz wyszukiwania po tytule i treści (LIKE).
+Aplikacja realizująca prosty notatnik z możliwością tagowania notatek oraz wyszukiwania po tytule i treści.
 
 ---
 
@@ -22,7 +22,7 @@ Aplikacja realizująca prosty notatnik z możliwością tagowania notatek oraz w
 ```
 
 2. Uruchom serwer:
-```bash
+bash
 node server.js
 
 ```
