@@ -1,5 +1,5 @@
 
-# Notes API – notatki, tagi i wyszukiwanie
+# Notatki API –
 
 Aplikacja realizująca prosty notatnik z możliwością tagowania notatek oraz wyszukiwania po tytule i treści.
 
